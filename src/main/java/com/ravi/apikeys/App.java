@@ -31,7 +31,7 @@ public class App
 		AmazonS3 s3client = new AmazonS3Client(credentials);
 		
 		// create bucket - name must be unique for all S3 users
-		String bucketName = "mylab-custom-bucket-876568";
+		String bucketName = "emp1234";
 		s3client.createBucket(bucketName);
 		
 		// list buckets
