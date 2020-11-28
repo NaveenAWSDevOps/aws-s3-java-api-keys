@@ -25,13 +25,13 @@ public class App
 		// credentials object identifying user for authentication
 		// user must have AWSConnector and AmazonS3FullAccess for 
 		// this example to work
-		AWSCredentials credentials = new BasicAWSCredentials("AKIAICO7OPDA5S76D6XA", "EvHeG8pXyJbAocnk17PmRFIUdB//5igfGQMnuJpy");
+		AWSCredentials credentials = new BasicAWSCredentials("AKIARMOFUAJMPRECICW6", "qrr8b5l9Cgh8CmvO+50PBst2rCjvj2p+dGntULIS");
 		
 		// create a client connection based on credentials
 		AmazonS3 s3client = new AmazonS3Client(credentials);
 		
 		// create bucket - name must be unique for all S3 users
-		String bucketName = "mylab-custom-bucket-876567";
+		String bucketName = "mylab-custom-bucket-876568";
 		s3client.createBucket(bucketName);
 		
 		// list buckets
